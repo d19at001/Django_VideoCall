@@ -1,0 +1,138 @@
+.video-grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+}
+
+.main-grid-container{
+    display: flex;
+}
+
+.main-content{
+    margin-top:8px;
+}
+
+img{
+    width: 100%;
+}
+.logo-masked{
+    width: 236px;
+    aspect-ratio: auto 236 / 57;
+    height: 57px;
+}
+.navbar{
+    justify-content: flex-start !important;
+    position: relative;
+    box-shadow: 0 0.25em 0.75em #ccc;
+}
+.logo{
+    margin-left: 0.5em;
+    margin-right: 4em !important;
+}
+.online-count{
+    font-size: 1.5em;
+    color: #9cf;
+    position: absolute;
+    right: 0.333333em;
+    bottom: 6px;
+}
+.sharebuttons{
+    position: absolute;
+    right: 0.5em;
+    top: 0.9em;
+    margin-right: -1px;
+    vertical-align: top;
+}
+.btn-share{
+    width: 64px;
+    aspect-ratio: auto 64 / 20;
+    height: 20px;
+}
+strong{
+    font-size: 1.3333em;
+}
+.video-wrapper{
+    position: relative;
+    width: 559px;
+    height: 823px;
+    padding:8px;
+}
+.video-box{
+    position: relative;
+   
+}
+#video-container video{
+    width: 543px;
+    height: 407px;
+    background: rgb(85, 85, 85);
+    border-radius: 0.5em;
+    margin-bottom: 8px;
+}
+.bi-mic-mute::before {
+    content: "\f48f" !important;
+}
+.bi-camera-video-off::before {
+    content: "\f21e" !important;
+}
+.btn-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border:solid 1px white;
+    background-color: transparent;
+    
+}
+.btn-audio{
+    position: absolute;
+    left: 40%;
+    top: 356px;
+
+}
+.btn-camera{
+    position: absolute;
+    left: 51%;
+    top: 356px;
+}
+.bi{
+    color: #fff;
+    font-size: 19px;
+}
+
+#chat{
+    flex-grow: 1;
+    margin-right: 8px;
+    margin-top: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-top-right-radius: 0.5em;
+}
+
+#message{
+    height:720px;
+
+}
+#message #message-list{
+    text-decoration: none;
+    list-style: none;
+    padding:0;
+}
+.message-input{
+    display: flex;
+    height: 45px;
+}
+
+.message-input #msg{
+    height: 100%;
+    flex-grow: 1;
+    border: 1px solid #ccc;
+
+}
+
+.message-input #btn-send-msg{
+    height: 100%;
+    border: 1px solid #ccc;
+}
+
+ input:focus{
+    outline: none;
+}
